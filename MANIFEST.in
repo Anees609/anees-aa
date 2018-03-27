@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include anees *.css
+recursive-include anees *.csv
+recursive-include anees *.html
+recursive-include anees *.ico
+recursive-include anees *.js
+recursive-include anees *.json
+recursive-include anees *.md
+recursive-include anees *.png
+recursive-include anees *.py
+recursive-include anees *.svg
+recursive-include anees *.txt
+recursive-exclude anees *.pyc
